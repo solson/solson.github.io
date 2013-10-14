@@ -27,9 +27,9 @@
       <div class="row">
         <div class="col-sm-2">
           <ul class="nav nav-pills nav-stacked text-right">
-            <li><a href="/">About Me</a></li>
-            <li><a href="/projects.html">Projects</a></li>
-            <li><a href="/resume.html">Résumé</a></li>
+            {% for p in site.nav %}
+            <li{% if p.title == page.title %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+            {% endfor %}
             <li><a href="https://github.com/tsion">GitHub</a></li>
             <li><a href="http://ca.linkedin.com/in/olsons">LinkedIn</a></li>
             <li><a href="https://twitter.com/tsion">Twitter</a></li>
