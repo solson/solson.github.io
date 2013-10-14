@@ -1,0 +1,8 @@
+.social-links a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #333333;
+}

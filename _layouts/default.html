@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }} | {{ site.name }}</title>
+    <title>{{ page.title }} &middot; {{ site.name }}</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
 
     <link rel="openid.server" href="http://www.myopenid.com/server" />
     <link rel="openid.delegate" href="http://scott-olson.myopenid.com/" />
@@ -33,15 +34,6 @@
               </li>
             {% endfor %}
 
-            <li><a href="https://github.com/tsion">
-              <i class="icon-github icon-fixed-width pull-left"></i> GitHub
-            </a></li>
-            <li><a href="http://ca.linkedin.com/in/olsons">
-              <i class="icon-linkedin icon-fixed-width pull-left"></i> LinkedIn
-            </a></li>
-            <li><a href="https://twitter.com/tsion">
-              <i class="icon-twitter icon-fixed-width pull-left"></i> Twitter
-            </a></li>
           </ul>
         </div>
 
@@ -54,6 +46,21 @@
 
       <div class="row">
         <footer class="col-sm-offset-2 col-sm-10">
+
+          <ul class="social-links list-inline">
+            <li><a href="https://github.com/tsion">
+              <i class="icon-large icon-github icon-fixed-width"></i>GitHub
+            </a></li>
+            &middot;
+            <li><a href="http://ca.linkedin.com/in/olsons">
+              <i class="icon-large icon-linkedin-sign icon-fixed-width"></i>LinkedIn
+            </a></li>
+            &middot;
+            <li><a href="https://twitter.com/tsion">
+              <i class="icon-large icon-twitter icon-fixed-width"></i>Twitter
+            </a></li>
+          </ul>
+
           <small class="text-muted">&copy; 2013 Scott Olson. All rights reserved.</small>
         </footer>
       </div>
