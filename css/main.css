@@ -6,3 +6,7 @@
 .social-links a:hover {
   color: #333333;
 }
+
+.social-links a .icon-large {
+  line-height: 1em; /* Hack to fix vertical alignment of icons. */
+}
