@@ -24,6 +24,12 @@ _Collaborative Open-Source project_
 
 ---
 
+### [.vimrc](http://github.com/tsion/dotvim) <small>Vim (2012 - present)</small>
+
+* My vim configuration and plugins.
+
+---
+
 ### [LeisureOnline](http://github.com/LeisureSoft/LeisureOnline) <small>ASP.NET (Fall 2013)</small>
 _University of Saskatchewan Software Engineering class project (CMPT 370)_
 
@@ -73,6 +79,24 @@ _University of Saskatchewan Human-Computer Interaction Lab project_
 
 ---
 
+### [Broderick Garden Centre website](http://broderickgardens.ca) <small>Jekyll (Summer 2012)</small>
+_Contract web design & development work_
+
+* Designed and developed this website to showcase the business's inventory and
+  classes held by the owner
+* Used the static site generator, Jekyll, to keep development simple. Mostly
+  HTML and CSS, with a bit of JavaScript
+
+---
+
+### [do\_stuff](http://github.com/tsion/do_stuff) <small>Ruby (2011 - 2012)</small>
+_Personal Open-Source project_
+
+* Minimalistic command line todo-list manager
+* Available as a Ruby [gem](https://rubygems.org/gems/do_stuff)
+
+---
+
 ### [stako](http://github.com/tsion/stako) <small>ooc (2010 - 2011)</small>
 _Personal Open-Source project_
 
@@ -98,3 +122,4 @@ _Personal Open-Source project_
 * Simple domain-specific language used to configure and define callbacks to
   handle certain events, such as a user joining or parting a channel, or
   asking the bot to do something
+* Available as a Ruby [gem](https://rubygems.org/gems/on_irc)
