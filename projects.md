@@ -12,7 +12,7 @@ _Personal Open-Source project_
 ---
 
 ### [Apricot](http://github.com/apricot-lang/apricot) <small>Ruby (2012 - present)</small>
-_Personal Open-Source project_
+_Collaborative Open-Source project_
 
 * A compiler and standard library for a new programming language called
   Apricot, similar to Clojure and Lisp, which compiles Apricot source code to
