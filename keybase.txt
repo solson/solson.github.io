@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/tsion
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://solson.me
+  * I am tsion (https://keybase.io/tsion) on keybase.
+  * I have a public key with fingerprint 1910 621B F70D EE9D 2D37  878C A6A3 CAAD E230 1627
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.9"
+        },
+        "key": {
+            "fingerprint": "1910621bf70dee9d2d37878ca6a3caade2301627",
+            "host": "keybase.io",
+            "key_id": "A6A3CAADE2301627",
+            "uid": "bac7ffb3442dc85994ef7d5af134b419",
+            "username": "tsion"
+        },
+        "merkle_root": {
+            "ctime": 1433180255,
+            "hash": "24c3539470aed6f3afc35b6464671f9a254ebecb7119b1a6ce5442e148f092db9886611e05616927f70a9f4d1b2bd9256b04ab13f2c319ec572ce8227d7ea4e0",
+            "seqno": 233762
+        },
+        "service": {
+            "hostname": "solson.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1433180314,
+    "expire_in": 157680000,
+    "prev": "e64ecb75e7ec581f32df84b95bf37f6864f827709a22518213e0b17074f288ff",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVUl9sFEUcvmuhCElD8RCBYDy3CRI5rjt/dmb3DNFLvYg+gAoiVsx1Zvc37cqx
+e+5uq2c5iYoPGhM0QKwoIQQomIhR3rT1T3iwCZiIQkyKCUkND5JiooQosQk6W2uQ
+mZeZ33zz/b7vm3m7vTXTkv1o5+X8iZXro+yZyzLzZG14/5AhQ69hlIYMt+ZDkKSr
+QGwHo2Rsg4YUMRT9MB+EHhSfi/OzmIIxCFHsh4FGmUVedIxmIYWnl5Uf9EFUj/yU
+y0AOMhlGUnHTA3A87BFuc9sVTBBXCA8wMRHDXFP2h3FyS1djhrPqe7paZmXSXS4/
+VLmJH5g5kMLlSklCKfZc23IcCop7llCIUEmRkwJjiGYtJTOitdjtEG2rQTUKwxnH
+buKn54gSgmwTW5aWI+J+fQNTl1jEodwU4DFFhNJ7yaieHClHYIuCBFdyhByJBHPB
+0lIAUVuZDvakY9uMIQSmxRBzMNdBCEdRD0ksPQdbTJpUSEQUdglywLU4dsHGmHsc
+BAVT64/h+SA0SpgQznAz3UeDvgup7jSzWWtxWIvDoKjXBaMehUnohjVd7k+Seil1
+nDTqKewFkNV/CY5BVfqBp5/r/++JNPTWNAiiBQNerPsRVP0UYXFmm3qkfWBQcwKj
+aQIWcK3fRopgT9lUOpZUhCtmM6pszLmp08IWsjEiYErETU4Vtm2lbnrUuSeiL3Xj
+9wUiGYjAaL6RXTEnk23JtM1tST9sZsH8jv9+8Z3r5t0oPfYx/713+tDSQxeODj26
+zzWvexcXnr3nnQXq4Ofy1NHNg3vzU6+Pf7l04G9r7OlXVlzKnkaLOna1rQtPdo03
+DneTxzNv3b5p15/Wu5vve23x9R3lk792vfxgeeOOyeHcUO9LP14d2Xtu9b6R2vnc
+Hd2LMtPfPPFJrvPI+cXNhTd+Cr47vLa997bh48vmbGk/0PPD1LPZv67OnTzxxW+5
+vodb726ZrF9a0zr6/v0TjeXJzx9MFSoTu4e7x7oqlQfG9997UCVffX/gmY5zyz57
+5OyetvdGeuoXJ1b1VOb/sjqEN9dcIxtGm5s6q/m71u+c9p9au3XJtx/OW7Jl9MKn
+V+iRzpWv5jZc2bN87I+vr+3+Bw==
+=OSMY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tsion
+
+==================================================================
