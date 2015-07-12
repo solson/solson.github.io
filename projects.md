@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-### [scott-olson.org](http://github.com/tsion/tsion.github.io) <small>Jekyll (2013 - present)</small>
+### [solson.me](http://github.com/tsion/tsion.github.io) <small>Jekyll (2013 - present)</small>
 _Personal Open-Source project_
 
 * The website you're reading right now
