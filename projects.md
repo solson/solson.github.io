@@ -4,7 +4,7 @@ title: Projects
 ---
 
 ### [solson.me](http://github.com/tsion/tsion.github.io) <small>Jekyll (2013 - present)</small>
-_Personal Open-Source project_
+_Personal open-source project_
 
 * The website you're reading right now
 * Hosted on GitHub Pages, using Jekyll, HTML, Markdown, and Bootstrap
@@ -12,7 +12,7 @@ _Personal Open-Source project_
 ---
 
 ### [Apricot](http://github.com/apricot-lang/apricot) <small>Ruby (2012 - present)</small>
-_Collaborative Open-Source project_
+_Collaborative open-source project_
 
 * A compiler and standard library for a new programming language called
   Apricot, similar to Clojure and Lisp, which compiles Apricot source code to
@@ -90,7 +90,7 @@ _Contract web design & development work_
 ---
 
 ### [do\_stuff](http://github.com/tsion/do_stuff) <small>Ruby (2011 - 2012)</small>
-_Personal Open-Source project_
+_Personal open-source project_
 
 * Minimalistic command line todo-list manager
 * Available as a Ruby [gem](https://rubygems.org/gems/do_stuff)
@@ -98,7 +98,7 @@ _Personal Open-Source project_
 ---
 
 ### [stako](http://github.com/tsion/stako) <small>ooc (2010 - 2011)</small>
-_Personal Open-Source project_
+_Personal open-source project_
 
 * Compiler for my [stack-based programming language](http://en.wikipedia.org/wiki/Stack-oriented_programming_language) called stako, similar to Forth or Factor
 * Compiles to machine code using [LLVM](http://llvm.org) and can call external
@@ -107,7 +107,7 @@ _Personal Open-Source project_
 ---
 
 ### [oos](http://github.com/tsion/oos) <small>ooc (2009 - 2011)</small>
-_Personal Open-Source project_
+_Personal open-source project_
 
 * An operating system with the goal of using the [ooc
   language](http://ooc-lang.org) for as much of the code as possible
@@ -116,7 +116,7 @@ _Personal Open-Source project_
 ---
 
 ### [on\_irc](http://github.com/tsion/on_irc) <small>Ruby (2008 - 2012)</small>
-_Personal Open-Source project_
+_Personal open-source project_
 
 * An event-driven Ruby IRC client library, used for writing IRC bots
 * Simple domain-specific language used to configure and define callbacks to
