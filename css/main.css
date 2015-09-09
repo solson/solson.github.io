@@ -56,12 +56,16 @@
 
 .text-center { text-align: center; }
 
-body {
+html {
     font-family: "Source Serif Pro", "serif";
 
     -moz-font-feature-settings: "kern", "liga";
     -webkit-font-feature-settings: "kern", "liga";
     font-feature-settings: "kern", "liga";
+}
+
+body > footer, main {
+  max-width: 96ch;
 }
 
 nav {
@@ -97,8 +101,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
 }
 
+/* (30ch + 2ch) * 3 (projects per row) = 96ch (max-width of body) */
 .project {
-  width: 37ch;
+  width: 30ch;
   padding-right: 2ch;
 }
 
