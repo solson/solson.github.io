@@ -2,16 +2,16 @@
  * Fira Sans - For headings and nav.
  */
 @font-face {
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Fira Sans'), url("fonts/FiraSans-Regular.woff") format('woff');
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans'), url("fonts/FiraSans-Regular.woff") format('woff');
 }
 @font-face {
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Fira Sans Medium'), url("fonts/FiraSans-Medium.woff") format('woff');
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), url("fonts/FiraSans-Medium.woff") format('woff');
 }
 
 /*
@@ -20,48 +20,48 @@
  * Using Heuristica for italics.
  */
 @font-face {
-    font-family: 'Source Serif Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Source Serif Pro'), url("fonts/SourceSerifPro-Regular.woff") format('woff');
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Serif Pro'), url("fonts/SourceSerifPro-Regular.woff") format('woff');
 }
 @font-face {
-    font-family: 'Source Serif Pro';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Heuristica Italic'), url("fonts/Heuristica-Italic.woff") format('woff');
+  font-family: 'Source Serif Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Heuristica Italic'), url("fonts/Heuristica-Italic.woff") format('woff');
 }
 @font-face {
-    font-family: 'Source Serif Pro';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Source Serif Pro Bold'), url("fonts/SourceSerifPro-Bold.woff") format('woff');
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Serif Pro Bold'), url("fonts/SourceSerifPro-Bold.woff") format('woff');
 }
 
 /*
  * Source Code Pro for code and other monospace text.
  */
 @font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Source Code Pro'), url("fonts/SourceCodePro-Regular.woff") format('woff');
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Code Pro'), url("fonts/SourceCodePro-Regular.woff") format('woff');
 }
 @font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 600;
-    src: local('Source Code Pro Semibold'), url("fonts/SourceCodePro-Semibold.woff") format('woff');
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Code Pro Semibold'), url("fonts/SourceCodePro-Semibold.woff") format('woff');
 }
 
 .text-center { text-align: center; }
 
 html {
-    font-family: "Source Serif Pro", "serif";
+  font-family: "Source Serif Pro", "serif";
 
-    -moz-font-feature-settings: "kern", "liga";
-    -webkit-font-feature-settings: "kern", "liga";
-    font-feature-settings: "kern", "liga";
+  -moz-font-feature-settings: "kern", "liga";
+  -webkit-font-feature-settings: "kern", "liga";
+  font-feature-settings: "kern", "liga";
 }
 
 body > footer, main {
@@ -69,29 +69,29 @@ body > footer, main {
 }
 
 nav {
-    font-family: "Fira Sans", "sans-serif";
+  font-family: "Fira Sans", "sans-serif";
 }
 
 nav ul {
-    margin: 0 0;
+  margin: 0 0;
 }
 
 h1, h2, h3 {
-    -moz-font-feature-settings: "kern", "liga", "smcp";
-    -webkit-font-feature-settings: "kern", "liga", "smcp";
-    font-feature-settings: "kern", "liga", "smcp";
+  -moz-font-feature-settings: "kern", "liga", "smcp";
+  -webkit-font-feature-settings: "kern", "liga", "smcp";
+  font-feature-settings: "kern", "liga", "smcp";
 }
 
 h4, h5, h6 {
-    -moz-font-feature-settings: "kern", "liga";
-    -webkit-font-feature-settings: "kern", "liga";
-    font-feature-settings: "kern", "liga";
+  -moz-font-feature-settings: "kern", "liga";
+  -webkit-font-feature-settings: "kern", "liga";
+  font-feature-settings: "kern", "liga";
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Fira Sans", "sans-serif";
-    font-weight: 500;
-    color: black;
+  font-family: "Fira Sans", "sans-serif";
+  font-weight: 500;
+  color: black;
 }
 
 .project-category {
@@ -108,5 +108,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project p {
-    margin-top: 0;
+  margin-top: 0;
 }
