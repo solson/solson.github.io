@@ -1,77 +1,64 @@
+---
+nav:
+  pages:
+    - name: Home
+      href: /
+
+    - name: Projects
+      href: /projects.html
+
+    - name: Résumé
+      href: /scott-olson-resume.pdf
+
+  links:
+    - name: GitHub
+      href: https://github.com/tsion
+
+    - name: LinkedIn
+      href: https://ca.linkedin.com/in/olsons
+
+    - name: Twitter
+      href: https://twitter.com/tsion
+
+    - name: Email
+      href: mailto:scott@solson.me
+
+    - name: Keybase
+      href: https://keybase.io/tsion
+---
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ page.title }} &middot; {{ site.name }}</title>
+<meta charset="utf-8">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if page.title %}
+  <title>{{ page.title }} · {{ site.name }}</title>
+{% else %}
+  <title>{{ site.name }}</title>
+{% endif %}
 
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="//writ.cmcenroe.me/1.0.1/writ.min.css">
+<link rel="stylesheet" href="/css/main.css">
 
-    <link rel="openid.server" href="http://www.myopenid.com/server" />
-    <link rel="openid.delegate" href="http://scott-olson.myopenid.com/" />
-    <link rel="openid2.local_id" href="http://scott-olson.myopenid.com" />
-    <link rel="openid2.provider" href="http://www.myopenid.com/server" />
-    <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=scott-olson.myopenid.com" />
-  </head>
-  <body>
+<header>
+  <h1>{{ site.name }}</h1>
 
-    <div class="container">
-      <div class="page-header">
-        <div class="row">
-          <div class="col-sm-offset-2 col-sm-10">
-            <h2>{{ site.name }}</h2>
-          </div>
-        </div>
-      </div>
+  <nav>
+    <ul>
+      {% for p in page.nav.pages %}
+        <li><a href="{{ p.href }}">{{ p.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 
-      <div class="row">
-        <div class="col-sm-2">
-          <ul class="nav nav-pills nav-stacked text-right">
-            {% for p in site.nav %}
-              <li{% if p.title == page.title %} class="active"{% endif %}>
-                <a href="{{ p.url }}">{{ p.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
+  <nav>
+    <ul>
+      {% for p in page.nav.links %}
+        <li><a href="{{ p.href }}">{{ p.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
 
-        <div class="col-sm-10">
-          {{ content }}
-        </div>
-      </div>
-
-      <hr>
-
-      <div class="row">
-        <footer class="col-sm-offset-2 col-sm-10">
-
-          <ul class="social-links list-inline pull-left">
-            <li><a href="https://github.com/tsion">
-              <i class="icon-large icon-github"></i> GitHub
-            </a></li>
-            &middot;
-            <li><a href="http://ca.linkedin.com/in/olsons">
-              <i class="icon-large icon-linkedin-sign"></i> LinkedIn
-            </a></li>
-            &middot;
-            <li><a href="https://twitter.com/tsion">
-              <i class="icon-large icon-twitter"></i> Twitter
-            </a></li>
-            &middot;
-            <li><a href="mailto:scott@solson.me">
-              <i class="icon-large icon-envelope"></i> Email
-            </a></li>
-          </ul>
-
-          <small class="text-muted pull-right">&copy; 2015 Scott Olson. All rights reserved.</small>
-        </footer>
-      </div>
-    </div>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  </body>
-</html>
+<main>
+  {{ content }}
+</main>

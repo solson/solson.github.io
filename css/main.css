@@ -1,12 +1,92 @@
-.social-links a {
-  color: #666666;
-  text-decoration: none;
+/*
+ * Fira Sans - For headings and nav.
+ */
+@font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fira Sans'), url("fonts/FiraSans-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Fira Sans Medium'), url("fonts/FiraSans-Medium.woff") format('woff');
 }
 
-.social-links a:hover {
-  color: #333333;
+/*
+ * Source Serif Pro - For body text.
+ *
+ * Using Heuristica for italics.
+ */
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Serif Pro'), url("fonts/SourceSerifPro-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Heuristica Italic'), url("fonts/Heuristica-Italic.woff") format('woff');
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Source Serif Pro Bold'), url("fonts/SourceSerifPro-Bold.woff") format('woff');
 }
 
-.social-links a .icon-large {
-  line-height: 1em; /* Hack to fix vertical alignment of icons. */
+/*
+ * Source Code Pro for code and other monospace text.
+ */
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Code Pro'), url("fonts/SourceCodePro-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Source Code Pro Semibold'), url("fonts/SourceCodePro-Semibold.woff") format('woff');
+}
+
+.text-center { text-align: center; }
+.subtitle { margin-top: 0; }
+
+body {
+    font-family: "Source Serif Pro", "serif";
+
+    -moz-font-feature-settings: "kern", "liga";
+    -webkit-font-feature-settings: "kern", "liga";
+    font-feature-settings: "kern", "liga";
+}
+
+nav {
+    font-family: "Fira Sans", "sans-serif";
+}
+
+nav ul {
+    margin: 0 0;
+}
+
+h1, h2, h3 {
+    -moz-font-feature-settings: "kern", "liga", "smcp";
+    -webkit-font-feature-settings: "kern", "liga", "smcp";
+    font-feature-settings: "kern", "liga", "smcp";
+}
+
+h4, h5, h6 {
+    -moz-font-feature-settings: "kern", "liga";
+    -webkit-font-feature-settings: "kern", "liga";
+    font-feature-settings: "kern", "liga";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fira Sans", "sans-serif";
+    font-weight: 500;
+    color: black;
 }
