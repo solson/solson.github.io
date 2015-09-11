@@ -1,56 +1,77 @@
 ---
 layout: default
 title: Projects
+
+projects:
+  - name: Programming Languages
+    items:
+      - name: Apricot
+        href: http://github.com/apricot-lang/apricot
+        info: Ruby, 2012–2013
+        desc: Clojure-like Lisp on Rubinius
+
+      - name: Stako
+        href: http://github.com/tsion/stako
+        info: ooc, 2010–2011
+        desc: Stack-based language using LLVM
+
+  - name: Research
+    items:
+      - name: FastTap
+        href: http://hci.usask.ca/publications/view.php?id=341
+        info: Android, 2013
+        desc: A faster selection technique for tablets
+              \[[video](http://youtu.be/1Yz-qQ8RA5g)\]
+
+      - name: Pinta Thing
+        href: #
+        info: C#, 2013
+        desc: Lorem ipsum dolor sit amet
+
+      - name: Kinect Arms Thing
+        href: #
+        info: C#, 2013
+        desc: Lorem ipsum dolor sit amet
+
+  - name: Miscellaneous
+    items:
+      - name: do_stuff
+        href: http://github.com/tsion/do_stuff
+        info: Ruby, 2011
+        desc: Minimalistic command line todo-list manager
+
+      - name: oos
+        href: http://github.com/tsion/oos
+        info: ooc, x86 ASM, 2009–2011
+        desc: Operating system written in ooc and assembly
+
+      - name: on_irc
+        href: http://github.com/tsion/on_irc
+        info: Ruby, 2008–2012
+        desc: Event-driven Ruby IRC client library
+
+      - name: solson.me
+        href: http://github.com/tsion/tsion.github.io
+        info: Jekyll, 2013–present
+        desc: This website right here
+
+      - name: dotfiles
+        href: http://github.com/tsion/dotfiles
+        desc: My configuration files for vim, fish, i3, etc.
 ---
 
 <h2 class="text-center">Projects</h2>
 
+{% for category in page.projects %}
+  <h3>{{ category.name }}</h3>
 
-### Programming Languages
-
-#### [Apricot](http://github.com/apricot-lang/apricot)
-<p class="subtitle"><small>Ruby, 2012–2013</small></p>
-<p class="subtitle">Clojure-like Lisp on Rubinius</p>
-
-#### [stako](http://github.com/tsion/stako)
-<p class="subtitle"><small>ooc, 2010–2011</small></p>
-<p class="subtitle">LLVM-compiled stack-based language inspired by Factor</p>
-
-
-### Web
-
-#### [solson.me](http://github.com/tsion/tsion.github.io)
-<p class="subtitle"><small>Jekyll, 2013–present</small></p>
-<p class="subtitle">This website right here</p>
-
-#### [Broderick Garden Centre website](http://broderickgardens.ca)
-<p class="subtitle"><small>Jekyll, 2012</small></p>
-<p class="subtitle">A static website for a small business</p>
-
-
-### Miscellaneous
-
-#### [FastTap](http://github.com/tsion/FastTap)
-<p class="subtitle"><small>Android, 2013</small></p>
-
-Developed an experimental Android painting application designed to study an
-innovative form of command selection for tablets, incorporating design
-requirements from the other authors of the research paper. Guided research
-participants through the study to generate the essential data for the paper.
-[Research paper](/FastTap.pdf) accepted at the CHI conference
-\[[video](http://youtu.be/1Yz-qQ8RA5g)\].
-
-#### [do\_stuff](http://github.com/tsion/do_stuff)
-<p class="subtitle"><small>Ruby, 2011</small></p>
-<p class="subtitle">Minimalistic command line todo-list manager</p>
-
-#### [oos](http://github.com/tsion/oos)
-<p class="subtitle"><small>ooc, x86 ASM, 2009–2011</small></p>
-<p class="subtitle">Operating system written in ooc and assembly</p>
-
-#### [on\_irc](http://github.com/tsion/on_irc)
-<p class="subtitle"><small>Ruby, 2008–2012</small></p>
-<p class="subtitle">Event-driven Ruby IRC client library</p>
-
-#### [dotfiles](http://github.com/tsion/dotfiles)
-<p class="subtitle">My configuration files for vim, fish, i3, etc.</p>
+  <div class="project-category">
+    {% for project in category.items %}
+      <div class="project">
+        <h4><a href="{{ project.href }}">{{ project.name }}</a></h4>
+        <small>{{ project.info }}</small>
+        {{ project.desc | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
