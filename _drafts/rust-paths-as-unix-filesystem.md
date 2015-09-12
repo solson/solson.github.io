@@ -31,7 +31,7 @@ The book has this to say:
 > crate root. `self` makes that path relative to your current place in the
 > hierarchy instead.[^1]
 
-[^1]: [The Rust Programming Language: Crates and Modules][rust-book-modules]
+[^1]: [The Rust Programming Language: Crates and Modules][rust-modules]
 
 Absolute and relative paths in a hierarchy? Sounds like a filesystem.
 Reading on:
