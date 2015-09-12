@@ -112,6 +112,7 @@ code, kbd, pre, samp {
  */
 pre {
   background-color: inherit;
+  border-radius: 0;
   border: rgba(0, 0, 0, .05) solid;
   border-width: 0 0 0 0.25ch;
   margin-left: 1.75ch;
