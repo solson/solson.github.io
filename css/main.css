@@ -90,8 +90,10 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
-/* Use true small caps via a separate font file for these headings. This is
- * supported by Safari, unlike font-feature-settings: "smcp". */
+/*
+ * Use true small caps via a separate font file for these headings. This is
+ * supported by Safari, unlike font-feature-settings: "smcp".
+ */
 h1, h2, h3 {
   font-family: "Fira Sans SC", "Fira Sans", "sans-serif";
 }
