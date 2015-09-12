@@ -69,7 +69,7 @@ mod {
 
     fn map<X, Y>(option: Option<X>, transformer: ...) -> Option<Y> {
         match option {
-            Some(x) => Some(transformer(x)), // (closure syntax for now)
+            Some(x) => Some(transformer(x)),
             None => None,
         }
     }
