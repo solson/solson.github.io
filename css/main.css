@@ -98,6 +98,9 @@ h1, h2, h3 {
   font-family: "Fira Sans SC", "Fira Sans", "sans-serif";
 }
 
+/* Subtitles under headings. */
+.subtitle { margin-top: 0; }
+
 /* Use flexbox layout for projects page. */
 .project-category {
   display: -webkit-flex;
