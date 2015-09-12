@@ -32,3 +32,14 @@ and collecting [vinyl records][discogs].
 [goodreads]: https://www.goodreads.com/user/show/27001981-scott
 [lastfm]: http://www.last.fm/user/sco50000
 [discogs]: http://www.discogs.com/user/tsion/collection
+
+{% for post in site.posts %}
+  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+  <p class="subtitle">
+    <small>
+      <time datetime="{{ post.date | date:'%Y-%m-%d' }}">
+        {{ post.date | date:'%A, %-d %B, %Y' }}
+      </time>
+    </small>
+  </p>
+{% endfor %}
