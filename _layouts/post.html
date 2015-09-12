@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<p class="subtitle">
+  <small>
+    <time datetime="{{ page.date | date:'%Y-%m-%d' }}">
+      {{ page.date | date:'%A, %B %d, %Y' }}
+    </time>
+  </small>
+</p>
+
+<article>
+  {{ content }}
+</article>
