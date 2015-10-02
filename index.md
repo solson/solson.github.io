@@ -16,7 +16,7 @@ and created a few of my own,
 which you can see on my [projects][projects] page.
 
 I recently finished a 4 month internship at Google
-followed by a 12 month internship on IBM's C++ compiler front-end.
+followed by a 12 month internship on IBM's C++ compiler front-end team.
 I am currently finishing up the final year of my CS degree
 while working part-time in the [Interaction Lab][hci].
 
