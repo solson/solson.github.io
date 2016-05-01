@@ -1,6 +1,1 @@
 name: Scott Olson
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - footnotes
-    - smart
